@@ -1,4 +1,4 @@
-# SudokuSolver
+# SudokuSolver (64bit)
 Uses recursive backtracking to solve sudoku puzzles.
 
 The puzzle must be a .txt file. All unknown values must be represented as 0's. Numbers can be separated with any character, but there must be 81 numbers in the file (9x9 sudoku grid).
@@ -18,4 +18,4 @@ in the file sudoku.txt:
   0,0,1,0,2,0,6,0,0
   0,8,0,0,6,0,0,0,0
 
-To solve the puzzle, use ./sudoku sudoku.txt.
+To solve the puzzle, use ./sudoku sudoku.txt. The program will print out the puzzle after each recursion. The last one it prints out is the solved puzzle.
